@@ -1,0 +1,24 @@
+.events {
+    list-style: none;
+    padding: 10% 20px 1% 20px;
+    background-color: #f7fae7;
+}
+
+.list-item {
+    height: 14vh;
+    margin: 17px 15%;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 10px 5px 15px lightslategrey;
+    background-clip: padding-box;
+    background-color: #565656;
+    color: #f7fae7;
+}
+
+.list-item > .block {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
