@@ -7,7 +7,7 @@
 .list-item {
     height: 14vh;
     margin: 17px 15%;
-    border-radius: 14px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-evenly;
     box-shadow: 10px 5px 15px lightslategrey;
