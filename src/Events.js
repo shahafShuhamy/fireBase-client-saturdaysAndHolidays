@@ -13,7 +13,7 @@ function Events() {
     const [items, setItems] = useState([]);
     
     useEffect(() => {
-        axios.get("https://us-central1-saturadysholidays.cloudfunctions.net/events")
+        axios.get("https://us-central1-saturadysholidays.cloudfunctions.net/events", {timeout: 7000})
         .then( (res) => {
             setIsLoaded(true);
             setItems([...res.data]);
@@ -50,7 +50,7 @@ function Events() {
         return (
           <ul className="events">
             {items.map(item => (
-                    <Event {...item}/>
+                    <Event key={Math.random().toString(36).substring(7)} {...item}/>
             ))}
           </ul>
         );
