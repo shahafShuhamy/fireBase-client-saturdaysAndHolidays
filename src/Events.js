@@ -43,7 +43,7 @@ function Events() {
     // const list = <ul className="events">{listItems}</ul>;
     // return (<div> {list} </div>)
     if (!isLoaded) {
-      return <div class="loader">Loading...</div>;
+      return <div className="loader">Loading...</div>;
       } else if (error){
         return <div>Error: {error.message}</div>;
       } else {
