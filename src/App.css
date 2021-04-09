@@ -15,3 +15,39 @@
   position: fixed;
   width: 100%;
 }
+
+.add-container {
+  width: 48px;
+  height: 48px;
+  position: fixed;
+  border-radius: 50%;
+  display: flex;
+  border: none;
+  bottom: 18px;
+  right: 2%;
+}
+
+.add-container > .add{
+  background-position: center;
+  transition: background 1s;
+  width: 48px;
+  height: 48px;
+}
+
+.add{
+  fill: var(--botton-primary-bg);
+}
+
+svg:hover {
+      fill: var(--botton-primary-hover);
+}
+
+.add:active {
+  fill: var(--botton-primary-hover);
+  background-size: 100%;
+  transition: background 1s;
+}
+
+.close-modal {
+  border: none;
+}

@@ -5,8 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --primary: #565656;
+  --primary: #2F4858;
+  --primary-hue: #6E8E8D;
   --secondary: #f7fae7;
+  --secondary-hue: #C6D6C5;
+  /*buttons*/
+  --botton-primary-bg: #97B2A8;
+  --botton-primary-hover: #4A6A73;
 }
 
 code {
@@ -22,7 +27,7 @@ button {
   font-size: 1rem;
   cursor: pointer;
   background-color: transparent;
-  color: var(--secondary);
+  outline: none;
 }
 
 .add {

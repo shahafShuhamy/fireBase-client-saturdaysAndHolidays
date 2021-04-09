@@ -1,0 +1,11 @@
+h4 {
+    color: var(--primary);
+}
+
+.form {
+    color: var(--primary);
+}
+
+.form > input {
+    width: 150px;
+}
