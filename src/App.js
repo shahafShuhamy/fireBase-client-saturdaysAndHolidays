@@ -16,6 +16,7 @@ function App() {
           right                 : 'auto',
           bottom                : 'auto',
           marginRight           : '-50%',
+          border                : '1px solid var(--primary)',
           transform             : 'translate(-50%, -50%)',
           backgroundColor       : 'var(--secondary)'      
         }
