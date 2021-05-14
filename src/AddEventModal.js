@@ -15,14 +15,11 @@ function AddEventModal() {
         const date = data.get('date');
         const location = data.get('location');
         if (name && date && location) {
-            data.set('holidayName', name);
-            data.set('location', location);
-            data.set('Date', date);
             axios.post('https://us-central1-saturadysholidays.cloudfunctions.net/events/withDate', 
             {
-            holidayName: name,
+            name: name,
             location: location,
-            Date: date
+            date: date
         })
             .then((response) => {
                 console.log(response);
